@@ -21,6 +21,8 @@ This function will test the null hypothesis for AUC. To get the test statistics 
 \item{var}{Variance of AUC}
 \item{upper_auc}{Upper limit of 95\% CI for AUC}
 \item{lower_auc}{Lower limit of 95\% CI for AUC}
+\item{p}{two tailed p-value}
+\item{p_one_tail}{one tailed p-value}
 }
 \description{
 This function estimates var(AUC(y~x[,v1]))
@@ -31,7 +33,7 @@ v1 indicates the ith column in the x matrix
 (v1 can be multiple values between 1 - M, see Arguments below)
 }
 \examples{
-#To get the AUC for AUC(y=x[,v1]) 
+#To get the AUC for AUC(y=x[,1]) 
 
 dat=dat1 #(this example embedded within the package)
 nv=length(dat$V1)
@@ -54,6 +56,14 @@ output=auc_var(dat,v1,nv,kv)
 
 #output$lower_auc (lower limit of 95\% CI for AUC)
 #0.7224119
+
+#output$p
+#9.28062e-175 (two tailed P-value for the AUC is significantly
+#different from 0.5)
+
+#output$p_one_tail (one tailed P-value for the AUC is significantly 
+#different from 0.5)
+#4.64031e-175
 }
 \keyword{R2}
 \keyword{information}

@@ -1,4 +1,4 @@
-cc8e48d10d1bbf9171340cbc2996b049 *DESCRIPTION
+c5001e8473ae02712ee924807e4f465e *DESCRIPTION
 3d2073494aa0b29d1a15b066168578d8 *NAMESPACE
 ec3b22f0aa340df8286ddccec2c15ab2 *R/aoa_auc1.r
 709fc98e8f2cf66b3bcaf374010740ea *R/aoa_auc12.r
@@ -7,16 +7,16 @@ ec3b22f0aa340df8286ddccec2c15ab2 *R/aoa_auc1.r
 2073fbfcc21d5e19dfe533298c4bf95f *R/aoa_auc12_3.r
 8862f6c0ffbec1e6a32db4b37429099d *R/aoa_auc12_34.r
 f5ce062ad77d8357ddecb12f45e664ee *R/aoa_auc1_2.r
-d0b39d2524e93ccc754bbf38fb2679f4 *R/auc_diff.r
+d0fbb3d41195731a14595cf6ad2375d2 *R/auc_diff.r
 0d5ac8ab3d513692617a91d04a27ca22 *R/auc_trf.r
-5dc4816bddb433dd9affd76b4acf58a5 *R/auc_var.r
+a3a200ac2d2521ec1e18ebee66caf45c *R/auc_var.r
 fa5350b677e84cec3ef31c889ae6030c *R/dat1.r
 244ed1e14c3bfa31e382bb5444c5abae *R/dat2.r
 270ac48fa4dcd27e3ebb09e627a3d815 *data/dat1.rda
 fe085353ac36bf6f2101894ac753c63e *data/dat2.rda
-755e0ca14bcc6d9388236352d51e4a89 *man/auc_diff.Rd
+fd33799893c38c6547d244f8a6265476 *man/auc_diff.Rd
 91d86bc39693633321365cb05b93a3e8 *man/auc_trf.Rd
-4d88b5a983c7bbe6008038060e828cb0 *man/auc_var.Rd
+d1eee1a41383c7bf26f8b21824020082 *man/auc_var.Rd
 2ff62bdf019513156a524e6a238e27e1 *man/dat1.Rd
 b98ecf6253d7be29e2dd59fe7677f38e *man/dat2.Rd
 7bede8c4c371d2c99f32d46488a877fe *man/olkin_auc1.Rd
